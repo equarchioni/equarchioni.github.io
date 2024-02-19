@@ -65,5 +65,7 @@ footer p.copyright {
     text-align: center;
     font-size: 80%;
 }
-
+header img {
+    margin-left: 2em;
+}
 
