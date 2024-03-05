@@ -80,3 +80,6 @@ p.fixed {
     background-color: lightgreen;
     padding: 20px;
 }
+header {
+    border-bottom: 2px solid maroon;
+}
