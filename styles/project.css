@@ -83,3 +83,6 @@ p.fixed {
 header {
     border-bottom: 2px solid maroon;
 }
+header image {
+    margin-left: 2em;
+}
