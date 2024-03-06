@@ -4,7 +4,7 @@ html {
 body {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 100%;
-    margin-left: 20px;
+    margin-left: 15px;
     width: 90%;
     background-color: white;
     margin: 15px auto;
@@ -55,7 +55,7 @@ article img {
     margin-right: 1em;
     margin-bottom: 1em;
 }
-article p:first-child::first-letter {
+main p:first-child::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
