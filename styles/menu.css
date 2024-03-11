@@ -18,3 +18,12 @@ aside ol {
 aside ul {
     list-style-type: square;
 }
+article h1 {
+    float: left;
+    padding: 1em;
+}
+article+h2 {
+    float: left;
+    padding: 1em;
+}
+
