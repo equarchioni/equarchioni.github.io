@@ -19,11 +19,11 @@ aside ul {
     list-style-type: square;
 }
 article h1 {
-    float: left;
-    padding: 1em;
+    float: right;
+    padding: 2em;
 }
 article+h2 {
-    float: left;
-    padding: 1em;
+    float: right;
+    padding: 2em;
 }
 
