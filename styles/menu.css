@@ -19,7 +19,8 @@ aside ul {
     list-style-type: square;
 }
 article h1 {
-    padding: 2em;
+    padding: 3em;
+    text-align: left;
 }
 article+h2 {
     padding: 2em;
