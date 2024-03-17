@@ -49,7 +49,36 @@ article h2 {
 }
 aside ol {
     list-style-type: upper-roman;
+    padding: 1em;
 }    
 aside ul {
     list-style-type: square;
+    padding: 1em;
+}
+aside {
+    width: 20%;
+    float: right;
+    position: fixed;
+    bottom: 35%;
+    right: 0;
+    background-color: lightblue;
+    border: 3px solid blue;
+    padding: 20px;
+}
+a:focus, a:hover {
+    font-style: italic;
+    color: orangered;
+    border: 3px blue;
+    border-style: dotted solid;
+}
+header {
+    border-bottom: 2px solid blue;
+}
+footer {
+    clear: both;
+    border-top: 2px solid blue;
+}
+footer p.copyright {
+    text-align: center;
+    font-size: 80%;
 }
