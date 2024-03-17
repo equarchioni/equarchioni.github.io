@@ -82,3 +82,14 @@ footer p.copyright {
     text-align: center;
     font-size: 80%;
 }
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+article img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
