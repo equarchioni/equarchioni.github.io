@@ -71,7 +71,7 @@ a:focus, a:hover {
     border: 3px blue;
     border-style: dotted solid;
 }
-header {
+#nav_menu {
     border-bottom: 2px solid blue;
 }
 footer {
