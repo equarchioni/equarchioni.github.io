@@ -71,8 +71,8 @@ a:focus, a:hover {
     border: 3px blue;
     border-style: dotted solid;
 }
-main {
-    border-top: 2px solid blue;
+#nav_menu {
+    border-bottom: 2px solid blue;
 }
 footer {
     clear: both;
