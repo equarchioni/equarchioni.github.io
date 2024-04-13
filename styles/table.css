@@ -37,7 +37,8 @@ html, body {
     /*-----------------------------------------------------------*/
     
     table.thrid {
-        border-collapse: collapse; }
+        border-collapse: collapse;
+        border: none; }
     thead {
         background-color: lightgreen;
     }
@@ -48,14 +49,8 @@ html, body {
     td.top {
         vertical-align: top;
     }
-    table.third {border-top: 2px solid orangered}
-
-    table.third thead tr:first-child {border-bottom:  2px solid orangered;}
-    
-    table.tird thead tr:nth-child(2) {border-bottom: 2px solid orangered;}
-    
-    table.third {border-bottom: 2px solid orangered;}
-
+    table.third thead tr:first-child {border-top: 2px solid orangered;}
+   
 @media only screen and (max-width: 425px) {
         th, td {
             display: block;
