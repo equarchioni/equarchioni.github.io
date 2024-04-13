@@ -38,6 +38,7 @@ html, body {
     
     table.thrid {
         border-collapse: collapse;
+        border: none;
          }
          
     thead {
@@ -46,12 +47,16 @@ html, body {
     table.third th, table.third td {
         padding: 0.7em;
         vertical-align: middle;
-        border: none;
     }
     td.top {
         vertical-align: top;
     }
     table.third thead tr:first-child {border-top: 2px solid orangered;}
+
+    table.third thead tr:nth-child(2) {border-top: 2px solid orangered;
+    border-bottom: 2px solid orangered;}
+
+    table.third tbody tr:last-child {border-bottom: 2px solid orangered;}
    
 @media only screen and (max-width: 425px) {
         th, td {
