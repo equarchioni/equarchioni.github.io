@@ -35,9 +35,7 @@ html, body {
         border-bottom: 2px solid purple;
     }
     /*-----------------------------------------------------------*/
-    table.thrid thead {
-        border-collapse: collapse;
-    }
+    
     thead {
         background-color: lightgreen;
     }
