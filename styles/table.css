@@ -36,7 +36,7 @@ html, body {
     }
     /*-----------------------------------------------------------*/
     
-    table.thrid thead {
+    table.thrid {
         border-collapse: collapse; }
     thead {
         background-color: lightgreen;
@@ -48,7 +48,9 @@ html, body {
     td.top {
         vertical-align: top;
     }
-    table.third thead tr:first-child {border-top:  2px solid orangered;}
+    table.third {border-top: 2px solid orangered}
+
+    table.third thead tr:first-child {border-bottom:  2px solid orangered;}
 
     table.third tbody {border-top: 2px solid orangered;}
    
