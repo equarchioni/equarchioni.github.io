@@ -51,9 +51,9 @@ html, body {
     table.third {border-top: 2px solid orangered}
 
     table.third thead tr:first-child {border-bottom:  2px solid orangered;}
-
-    table.third tbody {border-top: 2px solid orangered;}
-   
+    
+    table.tird thead tr:nth-child(2) {border-bottom: 2px solid orangered;}
+    
     table.third {border-bottom: 2px solid orangered;}
 
 @media only screen and (max-width: 425px) {
