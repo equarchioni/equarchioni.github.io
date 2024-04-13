@@ -35,7 +35,7 @@ html, body {
         border-bottom: 2px solid purple;
     }
     /*-----------------------------------------------------------*/
-    table.thrid {
+    table.thrid thead {
         border-collapse: collapse;
     }
     thead {
@@ -49,7 +49,7 @@ html, body {
         vertical-align: top;
     }
     table.third thead tr:first-child { border-top: 2px solid orangered; }
-    
+
 @media only screen and (max-width: 425px) {
         th, td {
             display: block;
