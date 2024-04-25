@@ -22,7 +22,61 @@
             <label for="verify">Verify Password:</label>
             <input type="password" name="verify" id="verify" required><br>
      </fieldset>
-    
+     <fieldset>
+        <legend>Member Information</legend>
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="first_name"
+            required autocomplete="on"><br>        
+        <label for="state">State:</label>
+        <input type="text" name="state" id="state" required 
+            maxlength="2" 
+            placeholder="2-character code"
+            autocomplete="on"><br>
+        <label for="zip">ZIP Code:</label>
+        <input type="text" name="zip" id="zip" required
+            placeholder="5 or 9 digits" 
+            pattern="^\d{5}(-\d{4})?$"
+            title="Either 5 or 9 digits"
+            autocomplete="on"><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone"
+            placeholder="999-999-9999" 
+            pattern="\d{3}[\-]\d{3}[\-]\d{4}" 
+            title="Must be 999-999-999 format"
+            autocomplete="on"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Membership Information</legend>
+        <label for="membership_type">Membership Type:</label>
+        <select name="membership_type" id="membership_type">
+            <option value="j">Junior</option>
+            <option value="r">Regular</option>
+            <option value="c">Charter</option>
+        </select><br>
+        <label for="starting_date">Starting Date:</label>
+        <input type="date" name="starting_date" id="starting_date"
+               required><br>
+        <label for="tickets">Tickets for Guests:</label>
+        <input type="number" name="tickets" id="tickets"
+               value="2" min="1" max="4"
+               placeholder="from 1 to 4"><br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>How did you hear about us?</legend>
+        <input type="checkbox" name="option1" id="option1"
+            value="search engine">
+        <label for="option1">Search Engine</label><br>
+        <input type="checkbox" name="option2" id="option2"
+            value="social media">
+        <label for="option2">Socail Media</label><br>
+        <input type="checkbox" name="option3" id="option3"
+            value="email">
+        <label for="option3">Email</label><br>
+        <input type="checkbox" name="option4" id="option4"
+            value="friend or collegue">
+        <label for="option4">Freind or collegue</label><br><br>
+    </fieldset>
     </form>
     
 </body>
