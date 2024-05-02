@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinosaurs are Among/Phylogenetic Tree</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="Styles/tree.css">
+</head>
+<body>
+    <section class="top-nav">
+        <div>
+            <p>Dinosaurs are Among Us!</p>	
+          </div>
+          <input id="menu-toggle" type="checkbox">
+          <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+          </label>
+          <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="explore.html">Explore Topic</a></li>
+                <li><a href="tree.html">Phylogenetic Tree</a></li>
+            </ul>
+    </section>
+    <br><br>
+    <main>
+        <article>
+            <h1>Phylogenetic Tree</h1>
+            <h2 class="topic-1">What is a phylogeny?</h2>
+                <p>Recent studies and evidence has shown that birds have a lot in common with dinosaurs, based on fossil evidence and similar features. In fact, studies have shown that the T-Rex has more in common with the chicken than an alligator! One way to prove this finding is the use of a phylogenetic tree. </p>
+                <P>A phylogenetic tree is a diagram that represents evolutionary relationships among organisms. These trees provide a visual representation of how species or other groups have evolved from a series of common ancestors over time.
+                    In a phylogenetic tree, species or groups of interest are found at the tips of branches. Each branch point represents a divergence event, where a single group is split into two descendant groups. The most recent common ancestor of all groups descended from a branch point. The Nodes are the branch points, representing common ancestors.
+                    </P>
+                    <div class="image1">
+                    <img src="Images/PartsOfPhylogeneticTree.png">
+                    </div>
+                <P>The goal is to gather species based on their derived traits and work our way backward to discover the potential history of their evolution. To find the similarities between species, scientist study protein sequences from fossils or other evidence.</P><br><br>
+        
+            <h2 class="topic-2">Linking Chickens to Dinosaurs</h2>
+                <p>To see how the T-Rex is related to the chicken, scientists have found similarities and created phylogenetic trees based on these traits:</p>
+                    <nav>
+                        <ul class="list">
+                            <li>Furcula</li>
+                            <li>Feathers</li>
+                            <li>Breastbones</li>
+                            <li>Wrist that contains a crescent t-shaped bone</li>
+                            <li>Hands like most other theropods, with three fingers in which the middle finger is the longest</li>
+                        </ul>
+                    </nav>
+                <p>The most common feature scientists have used in creating a link between the two species is the furcula, which is a bone in front of the breast bone that is shaped like a V and consists chiefly of two fused clavicles. Most people know this bone as the wishbone. Explore the 3D images below and see the relationship between the furcula that belonged to different species and the phylogenetic tree that shows potential genealogy</p><br>
+        
+            <h3>Chicken Furcula</h3>
+                <model-viewer src="Files/chicken_furcula.gltf"
+                alt="Chicken_furcula" camera-controls auto-rotate 
+                style="height: 300px;"></model-viewer><br><br>
+            <div class="Image-block">
+            <h3>Velo Furcula</h3>
+                <model-viewer src="Files/velo_furcula.gltf"
+                alt="velo_furcula" camera-controls auto-rotate 
+                style="height: 300px;" id="image1"></model-viewer><br>
+            
+            <h3>T-Rex Furcula</h3>
+                <model-viewer src="Files/trex_furcula.gltf"
+                alt="trex_furcula" camera-controls auto-rotate 
+                style="height: 300px;" id="image2"></model-viewer><br>
+            
+            <h3>Phylogenetic Tree</h3>
+                <model-viewer src="Files/phylogeny_full.gltf"
+                alt="phylogeny_full" camera-controls auto-rotate 
+                style="height: 300px;" id="image3"></model-viewer>
+            </div>
+        </article>
+    </main>
+    <footer> <a href="https://www.shsu.edu/academics/business-administration/innovation-technology-entrepreneurship/index.html" target="_blank"><img src="Images/Screenshot_21-4-2024_135815_.jpeg" alt="center of innovation & innovation-technology-entrepreneurship" id="logo"></a>
+                <p class="copyright">&copy; Coppyright 2024</p>
+
+    </footer>
+
+</body>
+</html>
