@@ -119,17 +119,19 @@ html, body {
                     opacity: 1;
                     display: block;
                     width: 50%;
-                    height: 100px;
+                    height: 200px;
                     margin: 10px;
-                    align-items:  center;
+                    text-align: center;
+                    float: right;
                 }
                 .container-2 img {
                     opacity: 1;
                     display: block;
                     width: 50%;
-                    height: 100px;
-                    align-items: center;
+                    height: 200px;
+                    text-align: center;
                     margin: 10px;
+                    float: left;
                 }
                 .container-1 {
                     position: relative;
