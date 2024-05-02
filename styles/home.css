@@ -93,12 +93,12 @@ html, body {
                     footer {
                         clear: both;
                         border-top: 2px solid black;
-                        height: 20px;
+                        height: 10px;
                     }
                     footer p.copyright {
                         text-align: center;
                         font-size: 80%;
-                        float: right;
+                        float: left;
                     }
                     footer a #logo {
                         float: left;
@@ -119,13 +119,20 @@ html, body {
                     opacity: 1;
                     display: block;
                     width: 50%;
-                    height: 10px;;
+                    height: 50px;
+                    float: left;
+                    clear: right;
+                    align-items:  center;
                 }
                 .container-2 img {
                     opacity: 1;
                     display: block;
                     width: 50%;
-                    height: 10px;;
+                    height: 50px;
+                    float: right;
+                    clear: left;
+                    align-items: center;
+
                 }
                 .container-1 {
                     position: relative;
