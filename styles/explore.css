@@ -124,10 +124,9 @@ html, body {
                         margin: 3em;
                     }
                     main {
-                        width: 100px;
-                        margin: auto;
-                        height: 100px;
-                        padding: 30px;
+                        height: 500px;
+                        width: auto;
+                        padding: 20px;
                     }
                     article p {
                         text-align: center;
@@ -147,12 +146,12 @@ html, body {
                     }
                     article {
                         clear: left;
-                        width: 350px;
+                        width: 400px;
                         text-align: center;
                         column-count: 1;
                         margin: 10px;
                     }
-                    div #aside-image {
+                     #aside-image {
                         width: 360px;
                         float: right;
                         padding: 20px;
