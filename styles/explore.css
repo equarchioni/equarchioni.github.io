@@ -97,7 +97,7 @@ html, body {
                     footer p.copyright {
                         text-align: center;
                         font-size: 80%;
-                        float: right;
+                        float: left;
                     }
                     footer a #logo {
                         float: left;
@@ -124,9 +124,9 @@ html, body {
                         margin: 3em;
                     }
                     main {
-                        width: 500px;
-                        margin: 30px;
-                        height: 350px;
+                        width: 100px;
+                        margin: auto;
+                        height: 100px;
                         padding: 30px;
                     }
                     article p {
@@ -147,8 +147,8 @@ html, body {
                     }
                     article {
                         clear: left;
-                        width: fit-content;
-                        float: inherit;
+                        width: 100px;
+                        text-align: center;
                         column-count: 1;
                         margin: 10px;
                     }
