@@ -93,10 +93,12 @@ html, body {
                     footer {
                         clear: both;
                         border-top: 2px solid black;
+                        height: 20px;
                     }
                     footer p.copyright {
                         text-align: center;
                         font-size: 80%;
+                        float: right;
                     }
                     footer a #logo {
                         float: left;
