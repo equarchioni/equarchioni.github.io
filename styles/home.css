@@ -93,7 +93,7 @@ html, body {
                     footer {
                         clear: both;
                         border-top: 2px solid black;
-                        height: 10px;
+                        height: 20px;
                     }
                     footer p.copyright {
                         text-align: center;
@@ -118,20 +118,20 @@ html, body {
                 .container-1 img {
                     opacity: 1;
                     display: block;
-                    width: 50%;
+                    width: 40%;
                     height: 200px;
                     margin: 10px;
                     text-align: center;
-                    float: right;
+                    float: left;
                 }
                 .container-2 img {
                     opacity: 1;
                     display: block;
-                    width: 50%;
+                    width: 40%;
                     height: 200px;
                     text-align: center;
                     margin: 10px;
-                    float: left;
+                    float: right;
                 }
                 .container-1 {
                     position: relative;
