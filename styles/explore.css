@@ -148,11 +148,10 @@ html, body {
                         padding: auto;
                     }
                     article {
-                        clear: left;
                         width: 50%;
                         text-align: center;
                         column-count: 1;
-                        margin: 30px;
+                        margin: 50px;
                         padding: 20px;
                         
                     }
