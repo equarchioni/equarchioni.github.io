@@ -95,6 +95,7 @@ html, body {
                         border-top: 2px solid black;
                         text-align: center;
                         font-size: .8em;
+                        height: 20px;
                     }
                     footer p.copyright {
                         text-align: center;
