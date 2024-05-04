@@ -94,7 +94,7 @@ html, body {
                         clear: both;
                         border-top: 2px solid black;
                         text-align: center;
-                        height: 20px;
+                        height: 30px;
                         padding: 10px;
                     }
                     footer p.copyright {
@@ -128,8 +128,8 @@ html, body {
                     }
                     main {
                         height: 500px;
-                        width: auto;
-                        padding: 20px;
+                        width: 200px;
+                        padding: 30px;
                     }
                     article p {
                         text-align: center;
@@ -149,17 +149,19 @@ html, body {
                     }
                     article {
                         clear: left;
-                        width: 400px;
+                        width: 50%;
                         text-align: center;
                         column-count: 1;
                         margin: 30px;
-                        text-align: center;
                         padding: 20px;
+                        
                     }
                      #aside-image {
                         width: 100px;
                         float: right;
                         padding: 10px;
+                        display: block;
+                        text-align: center;
                     }
                     @media only screen and (max-width: 700px) {
                         .menu-button-container {
