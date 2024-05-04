@@ -94,7 +94,7 @@ html, body {
                         clear: both;
                         border-top: 2px solid black;
                         text-align: center;
-                        height: 30px;
+                        height: 40px;
                         padding: 10px;
                     }
                     footer p.copyright {
@@ -128,8 +128,8 @@ html, body {
                     }
                     main {
                         height: 500px;
-                        width: 200px;
-                        padding: 30px;
+                        width: 300px;
+                        padding: 40px;
                     }
                     article p {
                         text-align: center;
