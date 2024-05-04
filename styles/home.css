@@ -105,13 +105,13 @@ html, body {
                         margin-right: 1em;
                         margin-bottom: 1em;
                         margin-left: 2em;
-                        width: 50%;
+                        width: 20px;
+                        height: auto;
                     } 
                  #image-container {
                     background-image: url(equarchioni/equarchioni.github.io/images/landscape-3969074_1280.jpg);
-                    background-size: contain;
                     width: 100%;
-                    height: 50px;
+                    height: 20px;
                     background-repeat: no-repeat;
                     background-position: center;
                 }
