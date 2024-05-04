@@ -128,8 +128,8 @@ html, body {
                     }
                     main {
                         height: 500px;
-                        width: 300px;
-                        padding: 40px;
+                        width: 100px;
+                        padding: 20px;
                     }
                     article p {
                         text-align: center;
