@@ -156,38 +156,9 @@ html, body {
                         margin: 3em;
                         font-weight: bold;
                     }
-                    div .image-block {
-                        display: block;
-                        width: 40%;
-                        text-align: center;
-                    }
-                    #image1 {
-                        padding: 10px;
-                        margin: 5em;
-                        display: block;
-                        width: 40%;
-                        align-items: center;
-                        height: 50%;
-                    }
-                    #image2 {
-                        padding: 10px;
-                        margin: 5em;
-                        display: block;
-                        width: 40%;
-                        align-items: center;
-                        height: 50%;
-                    }
-                    #image3 {
-                        padding: 10px;
-                        margin: 5em;
-                        display: block;
-                        width: 40%;
-                        align-items: center;
-                        height: 50%;
-                    }
                     .treeimg {
                         display: block;
-                        width: 60%;
+                        width: 75%;
                         height: 300px;
                         text-align: center;
                         margin: 50px;
