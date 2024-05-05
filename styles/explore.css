@@ -164,8 +164,9 @@ html, body {
                         float: right;
                     }
                     aside {
-                        width: 10%;
+                        width: 25%;
                         margin: 5px;
+                        float: right;
                     }
                     article .image1 {
                         width: 85%;
