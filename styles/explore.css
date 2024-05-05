@@ -157,8 +157,7 @@ html, body {
                         
                     }
                      #aside-image {
-                        width: 25px;
-                        float: right;
+                        width: 15px;
                         padding: 10px;
                         display: block;
                         height: 25%;
@@ -168,19 +167,19 @@ html, body {
                         margin: 5px;
                     }
                     article .image1 {
-                        width: 50%;
+                        width: 70%;
                         height: 300px;
                         display: block;
                         text-align: center;
                     }
                     article .image2 {
-                        width: 50%;
+                        width: 70%;
                         height: 300px;
                         display: block;
                         text-align: center;
                     }
                     article .image3 {
-                        width: 50%;
+                        width: 70%;
                         height: 300px;
                         display: block;
                         text-align: center;
