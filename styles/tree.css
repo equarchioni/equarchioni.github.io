@@ -158,8 +158,6 @@ html, body {
                     }
                     div .image-block {
                         display: block;
-                        margin-left: auto;
-                        margin-right: auto;
                         width: 20%;
                         text-align: center;
                     }
@@ -169,6 +167,7 @@ html, body {
                         display: block;
                         width: 40%;
                         align-items: center;
+                        height: 50%;
                     }
                     #image2 {
                         padding: 10px;
@@ -176,6 +175,7 @@ html, body {
                         display: block;
                         width: 40%;
                         align-items: center;
+                        height: 50%;
                     }
                     #image3 {
                         padding: 10px;
@@ -183,11 +183,17 @@ html, body {
                         display: block;
                         width: 40%;
                         align-items: center;
+                        height: 50%;
                     }
-                     .image1 {
-                        width: 25%;
-                        height: 20px;
+                    div .image1 {
+                        width: 15%;
+                        height: 15px;
                         margin: 1em;
+                        padding: 10px;
+                    }
+                    div {
+                        width: 50px;
+                        height: 25%;
                         padding: 10px;
                     }
                     @media only screen and (max-width: 700px) {
