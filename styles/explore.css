@@ -156,18 +156,19 @@ html, body {
                         padding: 10px;
                         
                     }
-                     #aside-image {
-                        width: 10px;
+                     aside img {
+                        width: 15px;
                         padding: 10px;
                         display: block;
-                        height: 5%;
+                        height: 25%;
+                        float: right;
                     }
                     aside {
                         width: 10%;
                         margin: 5px;
                     }
                     article .image1 {
-                        width: 80%;
+                        width: 85%;
                         height: 300px;
                         display: block;
                         text-align: center;
@@ -175,7 +176,7 @@ html, body {
                         padding: 10px;
                     }
                     article .image2 {
-                        width: 80%;
+                        width: 85%;
                         height: 300px;
                         display: block;
                         text-align: center;
@@ -183,7 +184,7 @@ html, body {
                         padding: 10px;
                     }
                     article .image3 {
-                        width: 70%;
+                        width: 85%;
                         height: 300px;
                         display: block;
                         text-align: center;
