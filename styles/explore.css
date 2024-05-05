@@ -161,12 +161,11 @@ html, body {
                         float: right;
                         padding: 10px;
                         display: block;
-                        text-align: center;
+                        height: 25%;
                     }
                     aside {
-                        width: 50%;
-                        margin: 10px;
-
+                        width: 25%;
+                        margin: 5px;
                     }
                     article .image1 {
                         width: 50%;
