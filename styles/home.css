@@ -93,7 +93,7 @@ html, body {
                     footer {
                         clear: both;
                         border-top: 2px solid black;
-                        height: 10px;
+                        height: 5px;
                         padding: 10px;
                     }
                     footer p.copyright {
@@ -121,7 +121,7 @@ html, body {
                     display: block;
                     width: 40%;
                     height: 250px;
-                    margin: 30px;
+                    margin: 50px;
                     text-align: center;
                     float: left;
                 }
@@ -131,7 +131,7 @@ html, body {
                     width: 40%;
                     height: 250px;
                     text-align: center;
-                    margin: 30px;
+                    margin: 50px;
                     float: right;
                 }
                 .container-1 {
